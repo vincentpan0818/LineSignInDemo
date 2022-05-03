@@ -12,7 +12,7 @@ import UIKit
 class LineSignInManager {
     static let shared = LineSignInManager()
     //ChannelID
-    private let aud = "1656919329"
+    private let aud = "網站申請的clientID"
     
     func delegateInit(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         LoginManager.shared.setup(channelID: aud, universalLinkURL: nil)
